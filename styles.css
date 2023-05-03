@@ -558,52 +558,20 @@ nav ul a:hover {
   padding: 100px 0 100px 0;
   background-color: var(--color-section-2);
 }
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea,
-select {
-  height: 38px;
-  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #ffffff;
-  border: none;
-  box-shadow: none;
-  box-sizing: border-box;
-  border-radius: 0;
-  outline: none;
-}
-textarea {
-  min-height: 250px;
-}
-input[type="submit"] {
-  display: flex;
-  height: 38px;
-  padding: 0 30px;
-  background: #666666;
-  color: #fff;
+
+.icons {
   text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: 0.1rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-  border-radius: 0px;
-  border: 0;
-  cursor: pointer;
-  box-sizing: border-box;
-  margin: 0 auto;
+  margin-top: 60px;
 }
-input[type="submit"]:hover {
-  background: #bbbbbb;
-  color: #000000;
-  text-decoration: none;
+
+#contact i {
+  font-size: 40px;
+  margin: 0 10%;
 }
+#contact i:hover {
+  color: #cfcfcf;
+}
+
 /* Footer Section
 ********************************************************************* */
 footer {
@@ -616,17 +584,7 @@ footer p {
   color: #ffffff;
   margin: 20px 0 0 0;
 }
-footer a {
-  font-size: 24px;
-  color: rgba(255, 255, 255, 0.7);
-}
-footer i {
-  padding-right: 10px;
-  color: #ffffff;
-}
-footer i:hover {
-  color: #cfcfcf;
-}
+
 /* Lists
 ********************************************************************* */
 ul {
