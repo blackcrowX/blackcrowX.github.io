@@ -1,7 +1,3 @@
-/*----------------------------------------------------*/
-/* Navigation
------------------------------------------------------- */
-
 $(window).scroll(function () {
   if ($(window).scrollTop() > 300) {
     $(".main_nav").addClass("sticky");
@@ -26,9 +22,7 @@ $(".main_nav li a").click(function () {
   }
 });
 
-/*----------------------------------------------------*/
-/* Smooth Scrolling
------------------------------------------------------- */
+
 
 jQuery(document).ready(function ($) {
   $(".smoothscroll").on("click", function (e) {
