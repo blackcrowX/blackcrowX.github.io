@@ -1,3 +1,7 @@
+/*----------------------------------------------------*/
+/* Navigation
+------------------------------------------------------ */
+
 $(window).scroll(function () {
   if ($(window).scrollTop() > 300) {
     $(".main_nav").addClass("sticky");
@@ -22,7 +26,9 @@ $(".main_nav li a").click(function () {
   }
 });
 
-
+/*----------------------------------------------------*/
+/* Smooth Scrolling
+------------------------------------------------------ */
 
 jQuery(document).ready(function ($) {
   $(".smoothscroll").on("click", function (e) {
@@ -45,5 +51,3 @@ jQuery(document).ready(function ($) {
       );
   });
 });
-
-TweenMax.staggerFrom(".heading", 0.8, { opacity: 0, y: 20, delay: 0.2 }, 0.4);
