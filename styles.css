@@ -579,6 +579,10 @@ footer {
   padding: 40px 0 40px 0;
   box-sizing: border-box;
   text-align: center;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  
 }
 footer p {
   color: #ffffff;
