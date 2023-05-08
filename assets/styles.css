@@ -12,7 +12,7 @@ body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   color: #222;
   margin: 0;
-  background: url("/images/background-hongkong-black-blur.jpg")
+  background: url(https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/background-hongkong-black-blur.jpg)
     no-repeat center fixed;
   background-size: cover;
 }
@@ -300,7 +300,7 @@ header {
   font-size: 50px;
 }
 .main_nav {
-  background: url("/images/background-hongkong-black-blur.jpg")
+  background: url(https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/background-hongkong-black-blur.jpg)
     no-repeat center fixed;
   background-size: cover;
   position: fixed;
@@ -467,6 +467,7 @@ nav ul a:hover {
 #about {
   padding: 100px 0 50px 0;
   background-color: var(--color-section-1);
+  opacity: 0.9;
 }
 
 /* Skills Section
@@ -474,6 +475,7 @@ nav ul a:hover {
 #skills {
   padding: 100px 0 100px 0;
   background-color: var(--color-section-2);
+  opacity: 0.9;
 }
 .progressBar {
   margin-bottom: 26px;
@@ -535,6 +537,7 @@ nav ul a:hover {
 #portfolio {
   padding: 100px 0 100px 0;
   background-color: var(--color-section-1);
+  opacity: 0.9;
 }
 .image {
   background-color: #5a5a5a;
@@ -557,6 +560,7 @@ nav ul a:hover {
 #contact {
   padding: 100px 0 100px 0;
   background-color: var(--color-section-2);
+  opacity: 0.9;
 }
 
 .icons {
