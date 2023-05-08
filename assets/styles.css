@@ -12,7 +12,7 @@ body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   color: #222;
   margin: 0;
-  background: url("images/background-hongkong-black-blur.jpg")
+  background: url("/images/background-hongkong-black-blur.jpg")
     no-repeat center fixed;
   background-size: cover;
 }
@@ -300,7 +300,7 @@ header {
   font-size: 50px;
 }
 .main_nav {
-  background: url("images/background-hongkong-black-blur.jpg")
+  background: url("/images/background-hongkong-black-blur.jpg")
     no-repeat center fixed;
   background-size: cover;
   position: fixed;
