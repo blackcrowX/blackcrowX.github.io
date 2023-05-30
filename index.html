@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,21 +13,196 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="assets/javascript.js"></script>
 </head>
-<header>
-<div class="title">
+
+<body>
+
+  <!-- Header Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <header id="header">
+    <div class="main_nav">
+      <div class="container">
+        <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
+        <nav>
+          <ul>
+            <li><a class="smoothscroll" href="#header">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+            <li><a class="smoothscroll" href="#skills">Skills</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="title">
       <div><img id="logo" src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/logo_white.png" alt="Logo"></div>
       <div class="smallsep heading"></div>
       <h1 class="heading">Portfolio</h1>
       <h2 class="heading">Your data speaks volumes - let me help you listen</h2>
-      <h2 class="heading">Matthias</h2>
+      <h2 class="heading">Matthias Ewald</h2>
       <a class="smoothscroll" href="#about">
         <div class="mouse">
           <div class="wheel"></div>
         </div>
       </a>
     </div>
-</header>
-<body>
+    <a class="smoothscroll" href="#about">
+      <div class="scroll-down"></div>
+    </a>
+  </header>
+
+  <!-- About Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <h1>About</h1>
+        <div class="block"></div>
+        <p>I am a data analyst with experience in using various tools and technologies to organize, collect, analyze and visualize data to inform business decisions. I have a solid understanding of data analytics techniques such as dashboard building, report writing, data mining, data merging, statistics, and critical thinking.</p>
+      </div>
+      <div class="row">
+        <div class="six columns">
+          <h3><i class="fa-solid fa-database"></i>Building</h3>
+          <p>Creating a structured collection of data for efficient data management, which includes defining the schema, selecting a management system, creating and populating the database, and optimizing its performance.</p>
+        </div>
+        <div class="six columns">
+          <h3><i class="fa-solid fa-broom"></i>Wrangling</h3>
+          <p>Cleaning, transforming, and preparing raw data by removing irrelevant or duplicate data, correcting errors, handling missing values, converting data types, and reshaping data into a suitable format.</p>
+        </div>
+        <div class="row">
+          <div class="six columns">
+            <h3><i class="fa-solid fa-chart-simple"></i>Analysing</h3>
+            <p>To discover meaningful patterns and relationships in the data through identifying the research question, collecting and cleaning the data, exploring and visualizing the data and conducting statistical analysis.</p>
+          </div>
+          <div class="six columns">
+            <h3><i class="fa-solid fa-person-chalkboard"></i>Visualising</h3>
+            <p>Use of visual formats like charts, graphs, and maps to help people understand and analyze data more easily, with the goal of communicating complex data insights quickly and effectively. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <section id="skills">
+    <div class="container">
+      <h1>Skills</h1>
+      <div class="block"></div>
+      <div class="row">
+        <div class="one-third column">
+          <h3>Excel</h3>
+          <p>Highly proficient in a wide range of Excel functions including VLOOKUP, INDEX-MATCH, SUMIF, COUNTIF, and pivot tables, with a proven ability to use these tools to analyze complex data and derive meaningful insights.</p>
+        </div>
+        <div class="one-third column">
+          <h3>Python</h3>
+          <p>Proficient in Python for data analysis, machine learning, web scraping, and automation, with expertise in libraries such as NumPy, Pandas, MatPlotLib, Seaborn, Scikit-Learn and BeautifulSoup.</p>
+        </div>
+        <div class="one-third column">
+          <h3>SQL</h3>
+          <p>Expertise in writing complex queries, designing and managing databases, and using SQL to extract and analyze large datasets, resulting in streamlined data processing and informed decision-making.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="eight columns">
+          <div class="progressBar">
+            <h4>Excel</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-90"></div>
+            </div>
+          </div>
+          <div class="progressBar">
+            <h4>Python</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-80"></div>
+            </div>
+          </div>
+          <div class="progressBar">
+            <h4>SQL</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-90"></div>
+            </div>
+          </div>
+          <div class="progressBar">
+            <h4>Tableau</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-70"></div>
+            </div>
+          </div>
+        </div>
+        <div class="four columns">
+          <h3>Tableau</h3>
+          <p>Proficient in Tableau for data visualization, with expertise in creating interactive dashboards and visualizations that effectively communicate complex data insights to both technical and non-technical stakeholders.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <section id="portfolio">
+    <div class="container">
+      <h1>Projects</h1>
+      <div class="block"></div>
+      <div class="row">
+        <div class="six columns">
+          <a href="https://github.com/blackcrowX/Data_Analytics_Portfolio/tree/main/Project_I" target="_blank" rel="noreferrer noopener">
+            <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_I/screenshot_insurance_claims.jpg" class="image" alt="Project One: Car Insurance Claims Fraud" />
+          </a>
+        </div>
+        <div class="six columns">
+          <a href="https://github.com/blackcrowX/Data_Analytics_Portfolio/tree/main/Project_II" target="_blank" rel="noreferrer noopener">
+            <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_II/screenshot_covid-19.png" class="image" alt="Project Two: Covid-19 Cases" />
+          </a>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 30px;">
+        <div class="six columns">
+          <a href="https://github.com/blackcrowX/Data_Analytics_Portfolio/blob/main/Project_III/Pokemon_Gen_1-8.ipynb" target="_blank" rel="noreferrer noopener">
+            <img src="https://raw.githubusercontent.com/blackcrowX/blackcrowX.github.io/main/images/project_III/screenshot_pokemon_gen_1-8.jpg" class="image" alt="Project Three: Pokemon Gen 1-8" />
+          </a>
+        </div>
+        <div class="six columns">
+          <a href="https://github.com/blackcrowX/Data_Analytics_Portfolio/tree/main/Project_IV" target="_blank" rel="noreferrer noopener">
+            <img src="https://i.postimg.cc/QMxcbW2D/Screenshot-2.jpg" class="image" alt="Project Four: Markdown Previewer" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <section id="contact">
+    <div class="container">
+      <h1>Contact</h1>
+      <div class="block"></div>
+      <p>If you have a problem that needs solving, please don't hesitate to reach out. Together, we'll uncover the insights your data is trying to tell you and use it to solve your problem.</p>
+      <div class="icons">
+        <a target="_blank" href="https://www.linkedin.com/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a target="_blank" href="mailto:blackcrowX">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a target="_blank" href="https://github.com/blackcrowX">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <footer>
+    <p>Copyright &copy; 2023<br>MIT license</p>
+  </footer>
+
 </body>
 
 </html>
